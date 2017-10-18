@@ -1,0 +1,71 @@
+html {
+	background: #eae7e1;
+  background: linear-gradient(to right, rgba(252,255,244,1) 0%,rgba(179,190,173,1) 100%);
+}
+
+.Japan_flag {
+	left: -250px;
+	top: 10%;
+	margin-left: 50%;
+	position: absolute;
+	display: block;
+	width: 500px;
+	height: 260px;
+	background: white;
+}
+
+.Japan_flag:before {
+	content: " ";
+	background: red;
+	display: block;
+	width: 160px;
+	height: 160px;
+  border-radius: 50%;
+	position: absolute;
+  top:20%;
+  left:35%;
+}
+
+.Micronesia_flag {
+  left: -250px;
+	top: 60%;
+	margin-left: 50%;
+	position: absolute;
+	display: block;
+	width: 500px;
+	height: 260px;
+	background: #75B2DD;
+}
+
+.Micronesia_flag:after{
+	content: "\2605";
+	font-size: 60px;
+	color: #f3f3f3;
+	position: absolute;
+  top:8%;
+  left: 44%;
+	text-shadow: -75px 60px 0 #f3f3f3, 75px 60px 0 #f3f3f3, 0px 130px 0 #f3f3f3;
+}
+
+.CR_flag {
+  margin-bottom: 200px;
+  left: -250px;
+	top: 110%;
+	margin-left: 50%;
+	position: absolute;
+	display: block;
+	width: 500px;
+	height: 130px;
+	background: white;
+  box-shadow: 0 130px 0 red ;
+}
+
+.CR_flag:before {
+  content: "";
+  width: 0;
+  height: 0;
+  border-top: 130px solid transparent;
+  border-bottom: 130px solid transparent;
+  border-left: 160px solid #124680;
+  position: absolute;
+}
